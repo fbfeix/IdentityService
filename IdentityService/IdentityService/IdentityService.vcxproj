@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
+    <ClInclude Include="AuthentificationError.h" />
     <ClInclude Include="Authentification.h" />
     <ClInclude Include="AuthStrategy.h" />
     <ClInclude Include="IdentityService.h" />
@@ -90,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
+    <ClCompile Include="AuthentificationError.cpp" />
     <ClCompile Include="Authentification.cpp" />
     <ClCompile Include="AuthStrategy.cpp" />
     <ClCompile Include="dllmain.cpp">

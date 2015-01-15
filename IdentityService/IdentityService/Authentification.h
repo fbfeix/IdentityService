@@ -10,5 +10,7 @@ public:
 	virtual ~Authentification();
 
 	Account* auth(AuthStrategy* strat);
+
+
 };
 

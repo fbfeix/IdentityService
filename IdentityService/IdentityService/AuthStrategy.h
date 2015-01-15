@@ -7,6 +7,8 @@
 class AuthStrategy
 {
 public:
-	virtual Account* auth() = 0;
+	virtual bool auth() = 0;
+
+	virtual Account* getAccount() = 0;
 };
 
