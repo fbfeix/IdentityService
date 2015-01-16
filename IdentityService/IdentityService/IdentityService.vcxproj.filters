@@ -39,6 +39,12 @@
     <ClInclude Include="AuthentificationError.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LdapAuthStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LdapAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -60,6 +66,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AuthentificationError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LdapAuthStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LdapAccount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
