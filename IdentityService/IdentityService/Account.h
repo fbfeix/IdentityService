@@ -2,7 +2,13 @@
 
 #include <string>
 
-class Account
+#ifdef IDENTITYSERVICE_EXPORTS
+#define IDENTITYSERVICE_API __declspec(dllexport)
+#else
+#define IDENTITYSERVICE_API __declspec(dllimport)
+#endif
+
+class IDENTITYSERVICE_API Account
 {
 public:
 	Account();

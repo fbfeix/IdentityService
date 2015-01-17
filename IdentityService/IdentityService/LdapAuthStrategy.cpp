@@ -102,12 +102,15 @@ void LdapAuthStrategy::init()
 	else
 		std::cout << "ohhhh" << std::endl;
 
+
+	delete[] p;
+
 }
 
 void LdapAuthStrategy::close()
 {
 	if (ldap_handler_)
 	{
-		delete ldap_handler_;
+		//delete ldap_handler_;
 	}
 }

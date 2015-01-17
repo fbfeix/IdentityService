@@ -2,9 +2,13 @@
 
 #include <IdentityService/Account.h>
 
+#ifdef IDENTITYSERVICE_EXPORTS
+#define IDENTITYSERVICE_API __declspec(dllexport)
+#else
+#define IDENTITYSERVICE_API __declspec(dllimport)
+#endif
 
-
-class AuthStrategy
+class IDENTITYSERVICE_API AuthStrategy
 {
 public:
 	virtual bool auth() = 0;
